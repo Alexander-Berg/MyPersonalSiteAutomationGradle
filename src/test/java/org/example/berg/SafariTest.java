@@ -17,7 +17,7 @@ public class SafariTest {
          SafariOptions options = new SafariOptions();
   driver = new SafariDriver(options);
   
-  driver.quit();
+ 
         try {
             driver.get("https://alexander-berg.github.io");
             driver.manage().timeouts().implicitlyWait(Duration.ofMillis(500));
@@ -39,7 +39,7 @@ public class SafariTest {
          SafariOptions options = new SafariOptions();
   driver = new SafariDriver(options);
   
-  driver.quit();
+ 
         try {
             driver.get("https://alexander-berg.github.io");
             driver.manage().timeouts().implicitlyWait(Duration.ofMillis(500));
@@ -58,7 +58,7 @@ public class SafariTest {
          SafariOptions options = new SafariOptions();
   driver = new SafariDriver(options);
   
-  driver.quit();
+  
         try {
             driver.get("https://alexander-berg.github.io");
             driver.manage().timeouts().implicitlyWait(Duration.ofMillis(500));
@@ -75,7 +75,7 @@ public class SafariTest {
          SafariOptions options = new SafariOptions();
   driver = new SafariDriver(options);
   
-  driver.quit();
+  
         try {
             driver.get("https://alexander-berg.github.io");
             driver.manage().timeouts().implicitlyWait(Duration.ofMillis(500));
@@ -115,7 +115,7 @@ public class SafariTest {
          SafariOptions options = new SafariOptions();
   driver = new SafariDriver(options);
   
-  driver.quit();
+ 
         try {
             driver.get("https://alexander-berg.github.io");
             driver.manage().timeouts().implicitlyWait(Duration.ofMillis(500));
@@ -132,7 +132,7 @@ public class SafariTest {
          SafariOptions options = new SafariOptions();
   driver = new SafariDriver(options);
   
-  driver.quit();
+
         try {
             driver.get("https://alexander-berg.github.io");
             driver.manage().timeouts().implicitlyWait(Duration.ofMillis(500));
@@ -149,7 +149,7 @@ public class SafariTest {
          SafariOptions options = new SafariOptions();
   driver = new SafariDriver(options);
   
-  driver.quit();
+ 
         try {
             driver.get("https://alexander-berg.github.io");
             driver.manage().timeouts().implicitlyWait(Duration.ofMillis(500));
@@ -166,7 +166,7 @@ public class SafariTest {
         SafariOptions options = new SafariOptions();
   driver = new SafariDriver(options);
   
-  driver.quit();
+ 
         try {
             driver.get("https://alexander-berg.github.io");
             driver.manage().timeouts().implicitlyWait(Duration.ofMillis(500));
@@ -183,7 +183,7 @@ public class SafariTest {
          SafariOptions options = new SafariOptions();
   driver = new SafariDriver(options);
   
-  driver.quit();
+
         try {
             driver.get("https://alexander-berg.github.io");
             driver.manage().timeouts().implicitlyWait(Duration.ofMillis(500));
@@ -200,7 +200,7 @@ public class SafariTest {
          SafariOptions options = new SafariOptions();
   driver = new SafariDriver(options);
   
-  driver.quit();
+  
         try {
             driver.get("https://alexander-berg.github.io");
             driver.manage().timeouts().implicitlyWait(Duration.ofMillis(500));
@@ -217,7 +217,7 @@ public class SafariTest {
          SafariOptions options = new SafariOptions();
   driver = new SafariDriver(options);
   
-  driver.quit();
+ 
         try {
             driver.get("https://alexander-berg.github.io");
             driver.manage().timeouts().implicitlyWait(Duration.ofMillis(500));
@@ -234,7 +234,7 @@ public class SafariTest {
          SafariOptions options = new SafariOptions();
   driver = new SafariDriver(options);
   
-  driver.quit();
+ 
         try {
             driver.get("https://alexander-berg.github.io");
             driver.manage().timeouts().implicitlyWait(Duration.ofMillis(500));
@@ -251,7 +251,7 @@ public class SafariTest {
          SafariOptions options = new SafariOptions();
   driver = new SafariDriver(options);
   
-  driver.quit();
+
         try {
             driver.get("https://alexander-berg.github.io");
             driver.manage().timeouts().implicitlyWait(Duration.ofMillis(500));
@@ -268,7 +268,7 @@ public class SafariTest {
          SafariOptions options = new SafariOptions();
   driver = new SafariDriver(options);
   
-  driver.quit();
+
         try {
             driver.get("https://alexander-berg.github.io");
             driver.manage().timeouts().implicitlyWait(Duration.ofMillis(500));
@@ -285,7 +285,7 @@ public class SafariTest {
          SafariOptions options = new SafariOptions();
   driver = new SafariDriver(options);
   
-  driver.quit();
+ 
         try {
             driver.get("https://alexander-berg.github.io");
             driver.manage().timeouts().implicitlyWait(Duration.ofMillis(500));
@@ -302,7 +302,7 @@ public class SafariTest {
         SafariOptions options = new SafariOptions();
   driver = new SafariDriver(options);
   
-  driver.quit();
+ 
         try {
             driver.get("https://alexander-berg.github.io");
             driver.manage().timeouts().implicitlyWait(Duration.ofMillis(500));
@@ -318,7 +318,7 @@ public class SafariTest {
          SafariOptions options = new SafariOptions();
   driver = new SafariDriver(options);
   
-  driver.quit();
+
         try {
             driver.get("https://alexander-berg.github.io");
             driver.manage().timeouts().implicitlyWait(Duration.ofMillis(500));
@@ -335,7 +335,7 @@ public class SafariTest {
          SafariOptions options = new SafariOptions();
   driver = new SafariDriver(options);
   
-  driver.quit();
+ 
         try {
             driver.get("https://alexander-berg.github.io");
             driver.manage().timeouts().implicitlyWait(Duration.ofMillis(500));
