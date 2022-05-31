@@ -14,8 +14,10 @@ public class SafariTest {
     @Test
     @DisplayName("My Resume Hyperlink Button Test")
     public void MyResumeCheck() {
-        WebDriverManager.safaridriver().setup();
-        WebDriver driver = new SafariDriver();
+         SafariOptions options = new SafariOptions();
+  driver = new SafariDriver(options);
+  
+  driver.quit();
         try {
             driver.get("https://alexander-berg.github.io");
             driver.manage().timeouts().implicitlyWait(Duration.ofMillis(500));
@@ -34,8 +36,10 @@ public class SafariTest {
     @Test
     @DisplayName("My HH Hyperlink Button Test")
     public void MyHHCheck() {
-        WebDriverManager.safaridriver().setup();
-        WebDriver driver = new SafariDriver();
+         SafariOptions options = new SafariOptions();
+  driver = new SafariDriver(options);
+  
+  driver.quit();
         try {
             driver.get("https://alexander-berg.github.io");
             driver.manage().timeouts().implicitlyWait(Duration.ofMillis(500));
@@ -51,8 +55,10 @@ public class SafariTest {
     @Test
     @DisplayName("My linkedInButtonTextTest")
     public void MyLinkedCheck() {
-        WebDriverManager.safaridriver().setup();
-        WebDriver driver = new SafariDriver();
+         SafariOptions options = new SafariOptions();
+  driver = new SafariDriver(options);
+  
+  driver.quit();
         try {
             driver.get("https://alexander-berg.github.io");
             driver.manage().timeouts().implicitlyWait(Duration.ofMillis(500));
@@ -66,8 +72,10 @@ public class SafariTest {
     @Test
     @DisplayName("My GitHub Test")
     public void MyGitHubCheck() {
-        WebDriverManager.safaridriver().setup();
-        WebDriver driver = new SafariDriver();
+         SafariOptions options = new SafariOptions();
+  driver = new SafariDriver(options);
+  
+  driver.quit();
         try {
             driver.get("https://alexander-berg.github.io");
             driver.manage().timeouts().implicitlyWait(Duration.ofMillis(500));
@@ -104,8 +112,10 @@ public class SafariTest {
     @Test
     @DisplayName("MyTelegramButtonTextTest")
     public void MyTelegramButtonTextTest() {
-        WebDriverManager.safaridriver().setup();
-        WebDriver driver = new SafariDriver();
+         SafariOptions options = new SafariOptions();
+  driver = new SafariDriver(options);
+  
+  driver.quit();
         try {
             driver.get("https://alexander-berg.github.io");
             driver.manage().timeouts().implicitlyWait(Duration.ofMillis(500));
@@ -119,8 +129,10 @@ public class SafariTest {
     @Test
     @DisplayName("MyFacebookButtonTextTest")
     public void MyFacebookButtonTextTest() {
-        WebDriverManager.safaridriver().setup();
-        WebDriver driver = new SafariDriver();
+         SafariOptions options = new SafariOptions();
+  driver = new SafariDriver(options);
+  
+  driver.quit();
         try {
             driver.get("https://alexander-berg.github.io");
             driver.manage().timeouts().implicitlyWait(Duration.ofMillis(500));
@@ -134,8 +146,10 @@ public class SafariTest {
     @Test
     @DisplayName("MyEmailButtonTextTest")
     public void MyEmailButtonTextTest() {
-        WebDriverManager.safaridriver().setup();
-        WebDriver driver = new SafariDriver();
+         SafariOptions options = new SafariOptions();
+  driver = new SafariDriver(options);
+  
+  driver.quit();
         try {
             driver.get("https://alexander-berg.github.io");
             driver.manage().timeouts().implicitlyWait(Duration.ofMillis(500));
@@ -149,8 +163,10 @@ public class SafariTest {
     @Test
     @DisplayName("MyGoogleDevButtonTextTest")
     public void MyGoogleDevButtonTextTest() {
-       WebDriverManager.safaridriver().setup();
-        WebDriver driver = new SafariDriver();
+        SafariOptions options = new SafariOptions();
+  driver = new SafariDriver(options);
+  
+  driver.quit();
         try {
             driver.get("https://alexander-berg.github.io");
             driver.manage().timeouts().implicitlyWait(Duration.ofMillis(500));
@@ -164,8 +180,10 @@ public class SafariTest {
     @Test
     @DisplayName("MyQADiplomaButtonTextTest")
     public void MyQADiplomaButtonTextTest() {
-        WebDriverManager.safaridriver().setup();
-        WebDriver driver = new SafariDriver();
+         SafariOptions options = new SafariOptions();
+  driver = new SafariDriver(options);
+  
+  driver.quit();
         try {
             driver.get("https://alexander-berg.github.io");
             driver.manage().timeouts().implicitlyWait(Duration.ofMillis(500));
@@ -179,8 +197,10 @@ public class SafariTest {
     @Test
     @DisplayName("MyQAMindmapsButtonTextTest")
     public void MyQAMindmapsButtonTextTest() {
-        WebDriverManager.safaridriver().setup();
-        WebDriver driver = new SafariDriver();
+         SafariOptions options = new SafariOptions();
+  driver = new SafariDriver(options);
+  
+  driver.quit();
         try {
             driver.get("https://alexander-berg.github.io");
             driver.manage().timeouts().implicitlyWait(Duration.ofMillis(500));
@@ -194,8 +214,10 @@ public class SafariTest {
     @Test
     @DisplayName("MyITNewsButtonTextTest")
     public void MyITNewsButtonTextTest() {
-        WebDriverManager.safaridriver().setup();
-        WebDriver driver = new SafariDriver();
+         SafariOptions options = new SafariOptions();
+  driver = new SafariDriver(options);
+  
+  driver.quit();
         try {
             driver.get("https://alexander-berg.github.io");
             driver.manage().timeouts().implicitlyWait(Duration.ofMillis(500));
@@ -209,8 +231,10 @@ public class SafariTest {
     @Test
     @DisplayName("MyDiscordButtonTextTest")
     public void MyDiscordButtonTextTest() {
-        WebDriverManager.safaridriver().setup();
-        WebDriver driver = new SafariDriver();
+         SafariOptions options = new SafariOptions();
+  driver = new SafariDriver(options);
+  
+  driver.quit();
         try {
             driver.get("https://alexander-berg.github.io");
             driver.manage().timeouts().implicitlyWait(Duration.ofMillis(500));
@@ -224,8 +248,10 @@ public class SafariTest {
     @Test
     @DisplayName("MyStackOverflowButtonTextTest")
     public void MyStackOverflowButtonTextTest() {
-        WebDriverManager.safaridriver().setup();
-        WebDriver driver = new SafariDriver();
+         SafariOptions options = new SafariOptions();
+  driver = new SafariDriver(options);
+  
+  driver.quit();
         try {
             driver.get("https://alexander-berg.github.io");
             driver.manage().timeouts().implicitlyWait(Duration.ofMillis(500));
@@ -239,8 +265,10 @@ public class SafariTest {
     @Test
     @DisplayName("MyVKButtonTextTest")
     public void MyVKButtonTextTest() {
-        WebDriverManager.edgedriver().setup();
-        WebDriver driver = new EdgeDriver();
+         SafariOptions options = new SafariOptions();
+  driver = new SafariDriver(options);
+  
+  driver.quit();
         try {
             driver.get("https://alexander-berg.github.io");
             driver.manage().timeouts().implicitlyWait(Duration.ofMillis(500));
@@ -254,8 +282,10 @@ public class SafariTest {
     @Test
     @DisplayName("MyInstagramButtonTextTest")
     public void MyInstagramButtonTextTest() {
-        WebDriverManager.safaridriver().setup();
-        WebDriver driver = new SafariDriver();
+         SafariOptions options = new SafariOptions();
+  driver = new SafariDriver(options);
+  
+  driver.quit();
         try {
             driver.get("https://alexander-berg.github.io");
             driver.manage().timeouts().implicitlyWait(Duration.ofMillis(500));
@@ -269,8 +299,10 @@ public class SafariTest {
     @Test
     @DisplayName("MyTwitterButtonTextTest")
     public void MyTwitterButtonTextTest() {
-        WebDriverManager.safaridriver().setup();
-        WebDriver driver = new SafariDriver();
+        SafariOptions options = new SafariOptions();
+  driver = new SafariDriver(options);
+  
+  driver.quit();
         try {
             driver.get("https://alexander-berg.github.io");
             driver.manage().timeouts().implicitlyWait(Duration.ofMillis(500));
@@ -283,8 +315,10 @@ public class SafariTest {
     @Test
     @DisplayName("MyHeaderTextTest")
     public void MyHeaderTextTest() {
-        WebDriverManager.safaridriver().setup();
-        WebDriver driver = new SafariDriver();
+         SafariOptions options = new SafariOptions();
+  driver = new SafariDriver(options);
+  
+  driver.quit();
         try {
             driver.get("https://alexander-berg.github.io");
             driver.manage().timeouts().implicitlyWait(Duration.ofMillis(500));
@@ -298,8 +332,10 @@ public class SafariTest {
     @Test
     @DisplayName("MyFooterTextTest")
     public void MyFooterTextTest() {
-        WebDriverManager.safaridriver().setup();
-        WebDriver driver = new SafariDriver();
+         SafariOptions options = new SafariOptions();
+  driver = new SafariDriver(options);
+  
+  driver.quit();
         try {
             driver.get("https://alexander-berg.github.io");
             driver.manage().timeouts().implicitlyWait(Duration.ofMillis(500));
