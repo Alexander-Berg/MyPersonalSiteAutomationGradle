@@ -9,7 +9,7 @@ import org.openqa.selenium.safari.SafariDriver;
 import java.time.Duration;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class EdgeTest {
+public class SafariTest {
 
     @Test
     @DisplayName("My Resume Hyperlink Button Test")
