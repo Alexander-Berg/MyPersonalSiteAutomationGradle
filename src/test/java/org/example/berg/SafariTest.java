@@ -5,7 +5,7 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.safari.SafariDriver;
 import java.time.Duration;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
@@ -14,8 +14,8 @@ public class EdgeTest {
     @Test
     @DisplayName("My Resume Hyperlink Button Test")
     public void MyResumeCheck() {
-        WebDriverManager.edgedriver().setup();
-        WebDriver driver = new EdgeDriver();
+        WebDriverManager.safaridriver().setup();
+        WebDriver driver = new SafariDriver();
         try {
             driver.get("https://alexander-berg.github.io");
             driver.manage().timeouts().implicitlyWait(Duration.ofMillis(500));
@@ -34,8 +34,8 @@ public class EdgeTest {
     @Test
     @DisplayName("My HH Hyperlink Button Test")
     public void MyHHCheck() {
-        WebDriverManager.edgedriver().setup();
-        WebDriver driver = new EdgeDriver();
+        WebDriverManager.safaridriver().setup();
+        WebDriver driver = new SafariDriver();
         try {
             driver.get("https://alexander-berg.github.io");
             driver.manage().timeouts().implicitlyWait(Duration.ofMillis(500));
@@ -51,8 +51,8 @@ public class EdgeTest {
     @Test
     @DisplayName("My linkedInButtonTextTest")
     public void MyLinkedCheck() {
-        WebDriverManager.edgedriver().setup();
-        WebDriver driver = new EdgeDriver();
+        WebDriverManager.safaridriver().setup();
+        WebDriver driver = new SafariDriver();
         try {
             driver.get("https://alexander-berg.github.io");
             driver.manage().timeouts().implicitlyWait(Duration.ofMillis(500));
@@ -66,8 +66,8 @@ public class EdgeTest {
     @Test
     @DisplayName("My GitHub Test")
     public void MyGitHubCheck() {
-        WebDriverManager.edgedriver().setup();
-        WebDriver driver = new EdgeDriver();
+        WebDriverManager.safaridriver().setup();
+        WebDriver driver = new SafariDriver();
         try {
             driver.get("https://alexander-berg.github.io");
             driver.manage().timeouts().implicitlyWait(Duration.ofMillis(500));
@@ -104,8 +104,8 @@ public class EdgeTest {
     @Test
     @DisplayName("MyTelegramButtonTextTest")
     public void MyTelegramButtonTextTest() {
-        WebDriverManager.edgedriver().setup();
-        WebDriver driver = new EdgeDriver();
+        WebDriverManager.safaridriver().setup();
+        WebDriver driver = new SafariDriver();
         try {
             driver.get("https://alexander-berg.github.io");
             driver.manage().timeouts().implicitlyWait(Duration.ofMillis(500));
@@ -119,8 +119,8 @@ public class EdgeTest {
     @Test
     @DisplayName("MyFacebookButtonTextTest")
     public void MyFacebookButtonTextTest() {
-        WebDriverManager.edgedriver().setup();
-        WebDriver driver = new EdgeDriver();
+        WebDriverManager.safaridriver().setup();
+        WebDriver driver = new SafariDriver();
         try {
             driver.get("https://alexander-berg.github.io");
             driver.manage().timeouts().implicitlyWait(Duration.ofMillis(500));
@@ -134,8 +134,8 @@ public class EdgeTest {
     @Test
     @DisplayName("MyEmailButtonTextTest")
     public void MyEmailButtonTextTest() {
-        WebDriverManager.edgedriver().setup();
-        WebDriver driver = new EdgeDriver();
+        WebDriverManager.safaridriver().setup();
+        WebDriver driver = new SafariDriver();
         try {
             driver.get("https://alexander-berg.github.io");
             driver.manage().timeouts().implicitlyWait(Duration.ofMillis(500));
@@ -149,8 +149,8 @@ public class EdgeTest {
     @Test
     @DisplayName("MyGoogleDevButtonTextTest")
     public void MyGoogleDevButtonTextTest() {
-        WebDriverManager.edgedriver().setup();
-        WebDriver driver = new EdgeDriver();
+       WebDriverManager.safaridriver().setup();
+        WebDriver driver = new SafariDriver();
         try {
             driver.get("https://alexander-berg.github.io");
             driver.manage().timeouts().implicitlyWait(Duration.ofMillis(500));
@@ -164,8 +164,8 @@ public class EdgeTest {
     @Test
     @DisplayName("MyQADiplomaButtonTextTest")
     public void MyQADiplomaButtonTextTest() {
-        WebDriverManager.edgedriver().setup();
-        WebDriver driver = new EdgeDriver();
+        WebDriverManager.safaridriver().setup();
+        WebDriver driver = new SafariDriver();
         try {
             driver.get("https://alexander-berg.github.io");
             driver.manage().timeouts().implicitlyWait(Duration.ofMillis(500));
@@ -179,8 +179,8 @@ public class EdgeTest {
     @Test
     @DisplayName("MyQAMindmapsButtonTextTest")
     public void MyQAMindmapsButtonTextTest() {
-        WebDriverManager.edgedriver().setup();
-        WebDriver driver = new EdgeDriver();
+        WebDriverManager.safaridriver().setup();
+        WebDriver driver = new SafariDriver();
         try {
             driver.get("https://alexander-berg.github.io");
             driver.manage().timeouts().implicitlyWait(Duration.ofMillis(500));
@@ -194,8 +194,8 @@ public class EdgeTest {
     @Test
     @DisplayName("MyITNewsButtonTextTest")
     public void MyITNewsButtonTextTest() {
-        WebDriverManager.edgedriver().setup();
-        WebDriver driver = new EdgeDriver();
+        WebDriverManager.safaridriver().setup();
+        WebDriver driver = new SafariDriver();
         try {
             driver.get("https://alexander-berg.github.io");
             driver.manage().timeouts().implicitlyWait(Duration.ofMillis(500));
@@ -209,8 +209,8 @@ public class EdgeTest {
     @Test
     @DisplayName("MyDiscordButtonTextTest")
     public void MyDiscordButtonTextTest() {
-        WebDriverManager.edgedriver().setup();
-        WebDriver driver = new EdgeDriver();
+        WebDriverManager.safaridriver().setup();
+        WebDriver driver = new SafariDriver();
         try {
             driver.get("https://alexander-berg.github.io");
             driver.manage().timeouts().implicitlyWait(Duration.ofMillis(500));
@@ -224,8 +224,8 @@ public class EdgeTest {
     @Test
     @DisplayName("MyStackOverflowButtonTextTest")
     public void MyStackOverflowButtonTextTest() {
-        WebDriverManager.edgedriver().setup();
-        WebDriver driver = new EdgeDriver();
+        WebDriverManager.safaridriver().setup();
+        WebDriver driver = new SafariDriver();
         try {
             driver.get("https://alexander-berg.github.io");
             driver.manage().timeouts().implicitlyWait(Duration.ofMillis(500));
@@ -254,8 +254,8 @@ public class EdgeTest {
     @Test
     @DisplayName("MyInstagramButtonTextTest")
     public void MyInstagramButtonTextTest() {
-        WebDriverManager.edgedriver().setup();
-        WebDriver driver = new EdgeDriver();
+        WebDriverManager.safaridriver().setup();
+        WebDriver driver = new SafariDriver();
         try {
             driver.get("https://alexander-berg.github.io");
             driver.manage().timeouts().implicitlyWait(Duration.ofMillis(500));
@@ -269,8 +269,8 @@ public class EdgeTest {
     @Test
     @DisplayName("MyTwitterButtonTextTest")
     public void MyTwitterButtonTextTest() {
-        WebDriverManager.edgedriver().setup();
-        WebDriver driver = new EdgeDriver();
+        WebDriverManager.safaridriver().setup();
+        WebDriver driver = new SafariDriver();
         try {
             driver.get("https://alexander-berg.github.io");
             driver.manage().timeouts().implicitlyWait(Duration.ofMillis(500));
@@ -283,8 +283,8 @@ public class EdgeTest {
     @Test
     @DisplayName("MyHeaderTextTest")
     public void MyHeaderTextTest() {
-        WebDriverManager.edgedriver().setup();
-        WebDriver driver = new EdgeDriver();
+        WebDriverManager.safaridriver().setup();
+        WebDriver driver = new SafariDriver();
         try {
             driver.get("https://alexander-berg.github.io");
             driver.manage().timeouts().implicitlyWait(Duration.ofMillis(500));
@@ -298,8 +298,8 @@ public class EdgeTest {
     @Test
     @DisplayName("MyFooterTextTest")
     public void MyFooterTextTest() {
-        WebDriverManager.edgedriver().setup();
-        WebDriver driver = new EdgeDriver();
+        WebDriverManager.safaridriver().setup();
+        WebDriver driver = new SafariDriver();
         try {
             driver.get("https://alexander-berg.github.io");
             driver.manage().timeouts().implicitlyWait(Duration.ofMillis(500));
