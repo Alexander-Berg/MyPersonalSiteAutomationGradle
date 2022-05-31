@@ -12,9 +12,7 @@ build: on
 
 install:
   - chmod +x gradlew
- - sleep 20
 
 
 build_script:
-  - sleep 20
   - ./gradlew test
