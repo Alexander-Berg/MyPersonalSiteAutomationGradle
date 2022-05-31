@@ -1,6 +1,6 @@
 image: Visual Studio 2022
 
-stack: jdk 11
+stack: jdk 8
 
 branches:
   only:
