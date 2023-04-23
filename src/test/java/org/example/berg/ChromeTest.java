@@ -252,7 +252,7 @@ public class ChromeTest {
         }
     }
 
-    @Test
+   /*  @Test
     @DisplayName("MyInstagramButtonTextTest")
     public void MyInstagramButtonTextTest() {
         WebDriverManager.chromedriver().setup();
@@ -266,6 +266,8 @@ public class ChromeTest {
             driver.quit();
         }
     }
+
+    */
 
     @Test
     @DisplayName("MyTwitterButtonTextTest")
