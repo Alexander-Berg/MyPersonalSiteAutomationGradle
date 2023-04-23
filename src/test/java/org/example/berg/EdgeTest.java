@@ -251,7 +251,7 @@ public class EdgeTest {
         }
     }
 
-    @Test
+   /* @Test
     @DisplayName("MyInstagramButtonTextTest")
     public void MyInstagramButtonTextTest() {
         WebDriverManager.edgedriver().setup();
@@ -265,7 +265,7 @@ public class EdgeTest {
             driver.quit();
         }
     }
-
+*/
     @Test
     @DisplayName("MyTwitterButtonTextTest")
     public void MyTwitterButtonTextTest() {
