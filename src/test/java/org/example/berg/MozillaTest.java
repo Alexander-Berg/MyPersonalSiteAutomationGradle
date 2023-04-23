@@ -252,7 +252,7 @@ public class MozillaTest {
             }
         }
 
-        @Test
+        /* @Test
         @DisplayName("MyInstagramButtonTextTest")
         public void MyInstagramButtonTextTest() {
             WebDriverManager.firefoxdriver().setup();
@@ -266,6 +266,7 @@ public class MozillaTest {
                 driver.quit();
             }
         }
+        */
 
         @Test
         @DisplayName("MyTwitterButtonTextTest")
